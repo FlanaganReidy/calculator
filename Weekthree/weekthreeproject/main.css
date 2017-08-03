@@ -1,0 +1,46 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.row{
+  display: flex;
+}
+button{
+  height: 80px;
+  width: 25%;
+  background-color: #6573FC;
+  color: white;
+  outline:none;
+  border: solid 1px white;
+  font-family: 'Abril Fatface', cursive;
+  font-size:1.8em;
+  min-width: 80px;
+}
+button:active, button.operator:active{
+ background-color: lightgrey;
+}
+
+output{
+  width: 75%;
+  max-height: 80px;
+  background-color: blue;
+  min-width: 240px;
+
+}
+button.clear {
+  width: 25%;
+
+}
+button.operator {
+  background-color: #17A9F4;
+  color: white;
+}
+p{
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  text-align: right;
+  font-size: 1.8em;
+}
