@@ -26,8 +26,9 @@ button:active, button.operator:active{
 output{
   width: 75%;
   max-height: 80px;
-  background-color: blue;
+  background-color: #4EBECD;
   min-width: 240px;
+  max-width: 240px;
 
 }
 button.clear {
